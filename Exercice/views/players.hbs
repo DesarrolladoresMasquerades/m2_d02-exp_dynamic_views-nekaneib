@@ -1,12 +1,12 @@
 <!-- views/players.hbs -->
 
 
-  <body>
-    <div class="container">
-      <h1>Players</h1>
-      <div class="row">
-        {{> playersCard}}
-      </div>
-    </div>
-  </body>
+ <div class="container">
+  <h1>Players</h1>
+  <div class="row">
+      {{#each players}} 
+        {{> playersCard this}} 
+      {{/each}}
+  </div>
+</div>
 
