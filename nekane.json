@@ -1,0 +1,5 @@
+{"name":" Nekane", 
+"hobbies": [{ "name": "reading" }, { "name": "sleeping" }, { "name": "cooking" }],
+"age": 14,
+"adult": true
+}
